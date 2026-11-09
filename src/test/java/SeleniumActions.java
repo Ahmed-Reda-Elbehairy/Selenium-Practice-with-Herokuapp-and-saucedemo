@@ -91,7 +91,6 @@ public class SeleniumActions {
 
     @Test
     public void scrollToElement() {
-        //not working due to website speed issue
         driver = new EdgeDriver();
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/infinite_scroll");
